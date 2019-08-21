@@ -1,0 +1,11 @@
+framework module PicturesNetwork {
+  umbrella header "PicturesNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module PicturesNetwork.Swift {
+    header "PicturesNetwork-Swift.h"
+    requires objc
+}

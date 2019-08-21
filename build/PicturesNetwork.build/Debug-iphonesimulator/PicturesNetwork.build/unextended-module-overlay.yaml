@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/omac/Library/Developer/Xcode/DerivedData/PicturesNetwork-csxgwxfqwoxteiffrgmgzjbsxhut/Build/Products/Debug-iphonesimulator/PicturesNetwork.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/omac/Desktop/TestTask/PicturesNetwork/build/PicturesNetwork.build/Debug-iphonesimulator/PicturesNetwork.build/unextended-module.modulemap",
+    }]
+  }]
+}

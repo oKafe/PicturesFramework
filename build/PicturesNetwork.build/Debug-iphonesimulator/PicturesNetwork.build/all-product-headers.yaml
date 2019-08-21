@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/omac/Library/Developer/Xcode/DerivedData/PicturesNetwork-csxgwxfqwoxteiffrgmgzjbsxhut/Build/Products/Debug-iphonesimulator/PicturesNetwork.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PicturesNetwork-Swift.h",
+          'external-contents': "/Users/omac/Library/Developer/Xcode/DerivedData/PicturesNetwork-csxgwxfqwoxteiffrgmgzjbsxhut/Build/Products/Debug-iphonesimulator/PicturesNetwork.framework/Headers/PicturesNetwork-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PicturesNetwork.h",
+          'external-contents': "/Users/omac/Desktop/TestTask/PicturesNetwork/PicturesNetwork/PicturesNetwork.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/omac/Library/Developer/Xcode/DerivedData/PicturesNetwork-csxgwxfqwoxteiffrgmgzjbsxhut/Build/Products/Debug-iphonesimulator/PicturesNetwork.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/omac/Desktop/TestTask/PicturesNetwork/build/PicturesNetwork.build/Debug-iphonesimulator/PicturesNetwork.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

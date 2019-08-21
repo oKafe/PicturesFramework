@@ -6,14 +6,34 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8E148AAC230D860100B20B6B /* PicturesNetworkFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8E148AAD230D860100B20B6B /* Build configuration list for PBXAggregateTarget "PicturesNetworkFramework" */;
+			buildPhases = (
+				8E148AB0230D863400B20B6B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = PicturesNetworkFramework;
+			productName = PicturesNetworkFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		67C6FADE59E83A7E7B1BBF66 /* Pods_PicturesNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22BA8C5A7F80911436F4B58 /* Pods_PicturesNetwork.framework */; };
 		8E148AA4230D81E100B20B6B /* PicturesNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E148AA2230D81E100B20B6B /* PicturesNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E148AAB230D826C00B20B6B /* PicturesNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E148AAA230D826C00B20B6B /* PicturesNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		747F4CCDE3F5ECAEE4E91012 /* Pods-PicturesNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicturesNetwork.release.xcconfig"; path = "Target Support Files/Pods-PicturesNetwork/Pods-PicturesNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		8E148A9F230D81E100B20B6B /* PicturesNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PicturesNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E148AA2230D81E100B20B6B /* PicturesNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicturesNetwork.h; sourceTree = "<group>"; };
 		8E148AA3230D81E100B20B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E148AAA230D826C00B20B6B /* PicturesNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesNetwork.swift; sourceTree = "<group>"; };
+		A22BA8C5A7F80911436F4B58 /* Pods_PicturesNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicturesNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AE26E51EB9A3F853AB4F81 /* Pods-PicturesNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicturesNetwork.debug.xcconfig"; path = "Target Support Files/Pods-PicturesNetwork/Pods-PicturesNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C6FADE59E83A7E7B1BBF66 /* Pods_PicturesNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +53,8 @@
 			children = (
 				8E148AA1230D81E100B20B6B /* PicturesNetwork */,
 				8E148AA0230D81E100B20B6B /* Products */,
+				FB31EF26B47BF05FEC35EF92 /* Pods */,
+				A151E4C9DB1CBC93D09AAB14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,8 +71,27 @@
 			children = (
 				8E148AA2230D81E100B20B6B /* PicturesNetwork.h */,
 				8E148AA3230D81E100B20B6B /* Info.plist */,
+				8E148AAA230D826C00B20B6B /* PicturesNetwork.swift */,
 			);
 			path = PicturesNetwork;
+			sourceTree = "<group>";
+		};
+		A151E4C9DB1CBC93D09AAB14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A22BA8C5A7F80911436F4B58 /* Pods_PicturesNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB31EF26B47BF05FEC35EF92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE26E51EB9A3F853AB4F81 /* Pods-PicturesNetwork.debug.xcconfig */,
+				747F4CCDE3F5ECAEE4E91012 /* Pods-PicturesNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E148AA7230D81E100B20B6B /* Build configuration list for PBXNativeTarget "PicturesNetwork" */;
 			buildPhases = (
+				B377DD700E04EA2EDA7EC4F5 /* [CP] Check Pods Manifest.lock */,
 				8E148A9A230D81E100B20B6B /* Headers */,
 				8E148A9B230D81E100B20B6B /* Sources */,
 				8E148A9C230D81E100B20B6B /* Frameworks */,
@@ -95,6 +138,10 @@
 				TargetAttributes = {
 					8E148A9E230D81E100B20B6B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					8E148AAC230D860100B20B6B = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -111,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				8E148A9E230D81E100B20B6B /* PicturesNetwork */,
+				8E148AAC230D860100B20B6B /* PicturesNetworkFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -125,11 +173,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E148AB0230D863400B20B6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\nopen \"${PROJECT_DIR}\"\n";
+		};
+		B377DD700E04EA2EDA7EC4F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicturesNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E148A9B230D81E100B20B6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E148AAB230D826C00B20B6B /* PicturesNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +351,9 @@
 		};
 		8E148AA8230D81E100B20B6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3AE26E51EB9A3F853AB4F81 /* Pods-PicturesNetwork.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.orphans.PicturesNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,7 +379,9 @@
 		};
 		8E148AA9230D81E100B20B6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747F4CCDE3F5ECAEE4E91012 /* Pods-PicturesNetwork.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -308,6 +404,24 @@
 			};
 			name = Release;
 		};
+		8E148AAE230D860100B20B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6468Q3E8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E148AAF230D860100B20B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6468Q3E8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -325,6 +439,15 @@
 			buildConfigurations = (
 				8E148AA8230D81E100B20B6B /* Debug */,
 				8E148AA9230D81E100B20B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E148AAD230D860100B20B6B /* Build configuration list for PBXAggregateTarget "PicturesNetworkFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E148AAE230D860100B20B6B /* Debug */,
+				8E148AAF230D860100B20B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

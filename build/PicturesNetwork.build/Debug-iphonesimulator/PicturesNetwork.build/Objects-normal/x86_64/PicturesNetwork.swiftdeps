@@ -1,0 +1,240 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PicturesNetworkManager"
+provides-nominal:
+- "15PicturesNetwork0aB7ManagerC"
+provides-member:
+- ["15PicturesNetwork0aB7ManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "Alamofire"
+- "CastingPrecedence"
+- "Dictionary"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "JSONEncoding"
+- "NSObject"
+- "PicturesNetworkManager"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "JSONEncoding"]
+- ["s7CVarArgP", "PicturesNetworkManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "baseURLString"]
+- !private ["s7CVarArgP", "getPictures"]
+- !private ["s7CVarArgP", "headers"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pageSearchScreen"]
+- !private ["s7CVarArgP", "searchPicturesBy"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoding"]
+- ["s28CustomDebugStringConvertibleP", "PicturesNetworkManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "baseURLString"]
+- !private ["s28CustomDebugStringConvertibleP", "getPictures"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pageSearchScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "searchPicturesBy"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoding"]
+- ["s23CustomStringConvertibleP", "PicturesNetworkManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "baseURLString"]
+- !private ["s23CustomStringConvertibleP", "getPictures"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pageSearchScreen"]
+- !private ["s23CustomStringConvertibleP", "searchPicturesBy"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SQ", "Alamofire"]
+- !private ["SQ", "JSONEncoding"]
+- ["SQ", "PicturesNetworkManager"]
+- ["SQ", ""]
+- !private ["SQ", "baseURLString"]
+- !private ["SQ", "getPictures"]
+- !private ["SQ", "headers"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "pageSearchScreen"]
+- !private ["SQ", "searchPicturesBy"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Alamofire"]
+- !private ["SH", "JSONEncoding"]
+- ["SH", "PicturesNetworkManager"]
+- ["SH", ""]
+- !private ["SH", "baseURLString"]
+- !private ["SH", "getPictures"]
+- !private ["SH", "headers"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "pageSearchScreen"]
+- !private ["SH", "searchPicturesBy"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "Alamofire"]
+- !private ["So8NSObjectC", "JSONEncoding"]
+- ["So8NSObjectC", "PicturesNetworkManager"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "baseURLString"]
+- ["So8NSObjectC", "getPictures"]
+- ["So8NSObjectC", "headers"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "nextPage"]
+- ["So8NSObjectC", "pageMainScreen"]
+- ["So8NSObjectC", "pageSearchScreen"]
+- ["So8NSObjectC", "searchPicturesBy"]
+- ["So8NSObjectC", "sharedNetwork"]
+- !private ["So8NSObjectP", "Alamofire"]
+- !private ["So8NSObjectP", "JSONEncoding"]
+- ["So8NSObjectP", "PicturesNetworkManager"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "baseURLString"]
+- !private ["So8NSObjectP", "getPictures"]
+- !private ["So8NSObjectP", "headers"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "pageSearchScreen"]
+- !private ["So8NSObjectP", "searchPicturesBy"]
+- !private ["15PicturesNetwork0aB7ManagerC", "Alamofire"]
+- !private ["15PicturesNetwork0aB7ManagerC", "JSONEncoding"]
+- ["15PicturesNetwork0aB7ManagerC", "PicturesNetworkManager"]
+- ["15PicturesNetwork0aB7ManagerC", "String"]
+- !private ["15PicturesNetwork0aB7ManagerC", "baseURLString"]
+- ["15PicturesNetwork0aB7ManagerC", "getPictures"]
+- !private ["15PicturesNetwork0aB7ManagerC", "headers"]
+- ["15PicturesNetwork0aB7ManagerC", "init"]
+- ["15PicturesNetwork0aB7ManagerC", "nextPage"]
+- !private ["15PicturesNetwork0aB7ManagerC", "pageMainScreen"]
+- !private ["15PicturesNetwork0aB7ManagerC", "pageSearchScreen"]
+- !private ["15PicturesNetwork0aB7ManagerC", "searchPicturesBy"]
+- ["15PicturesNetwork0aB7ManagerC", "sharedNetwork"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONEncoding"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PicturesNetworkManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseURLString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getPictures"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headers"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pageSearchScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "searchPicturesBy"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "15PicturesNetwork0aB7ManagerC"
+- "Sm"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/omac/Desktop/TestTask/PicturesNetwork/PicturesNetwork/PicturesNetwork.h"
+- "/Users/omac/Desktop/TestTask/PicturesNetwork/build/PicturesNetwork.build/Debug-iphonesimulator/PicturesNetwork.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "06f6a71edc044d24e1b90da3e13d4739"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "c8b20351402d6a80ead6cc2de2cc52ed"
+build_time: [1566416129, 733552000]
+inputs:
+  "/Users/omac/Desktop/TestTask/PicturesNetwork/PicturesNetwork/PicturesNetwork.swift": !dirty [1566414728, 0]

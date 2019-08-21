@@ -1,0 +1,10 @@
+framework module PicturesNetwork {
+  umbrella header "PicturesNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module PicturesNetwork.__Swift {
+    exclude header "PicturesNetwork-Swift.h"
+}
